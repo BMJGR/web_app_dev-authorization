@@ -1,0 +1,33 @@
+GET http://localhost:8080/authors
+
+###
+
+GET http://localhost:8080/authors/name_sur
+
+###
+
+GET http://localhost:8080/authors/name_sur2/articles
+
+
+
+###
+
+GET http://localhost:8080/articles
+
+###
+
+GET http://localhost:8080/articles/27
+
+###
+
+GET http://localhost:8080/articles/27/tags
+
+###
+
+GET http://localhost:8080/tags
+
+###
+
+GET http://localhost:8080/tags/1
+
+

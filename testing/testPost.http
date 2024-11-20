@@ -1,0 +1,46 @@
+POST http://localhost:8080/authors
+auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW4iLCJyb2xlIjoicm9vdCIsImlhdCI6MTczMjA5NzcwN30.iCDrmXrjfl_b066AfKnx0ND0xTf36WNkuy2vgCL5uoI
+Content-Type: application/json
+
+{
+    "slug": "name_sur111",
+    "name": "Name111",
+    "description": "Author description1"
+}
+
+###
+
+GET http://localhost:8080/authors
+
+###
+
+POST http://localhost:8080/articles
+auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW4iLCJyb2xlIjoicm9vdCIsImlhdCI6MTczMjA5NzcwN30.iCDrmXrjfl_b066AfKnx0ND0xTf36WNkuy2vgCL5uoI
+Content-Type: application/json
+
+{
+    "author_slug": "name_sur111",
+    "title": "Title 52",
+    "description": "Description 2225",
+    "content": "Content 22225",
+    "tags_ids": [2, 3]
+}
+
+###
+
+GET http://localhost:8080/articles
+
+###
+
+POST http://localhost:8080/tags
+auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW4iLCJyb2xlIjoicm9vdCIsImlhdCI6MTczMjA5NzcwN30.iCDrmXrjfl_b066AfKnx0ND0xTf36WNkuy2vgCL5uoI
+Content-Type: application/json
+
+{
+    "slug": "keyword7",
+    "name": "Keyword4"
+}
+
+###
+
+GET http://localhost:8080/tags

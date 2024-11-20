@@ -1,0 +1,25 @@
+DELETE http://localhost:8080/authors/name_sur111
+auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW4iLCJyb2xlIjoicm9vdCIsImlhdCI6MTczMjA5NzcwN30.iCDrmXrjfl_b066AfKnx0ND0xTf36WNkuy2vgCL5uoI
+
+###
+
+GET http://localhost:8080/authors
+
+###
+
+DELETE http://localhost:8080/articles/24
+auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW4iLCJyb2xlIjoicm9vdCIsImlhdCI6MTczMjA5NzcwN30.iCDrmXrjfl_b066AfKnx0ND0xTf36WNkuy2vgCL5uoI
+
+
+###
+
+GET http://localhost:8080/articles/24
+
+###
+
+DELETE http://localhost:8080/tags/5
+auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW4iLCJyb2xlIjoicm9vdCIsImlhdCI6MTczMjA5NzcwN30.iCDrmXrjfl_b066AfKnx0ND0xTf36WNkuy2vgCL5uoI
+
+###
+
+GET http://localhost:8080/tags

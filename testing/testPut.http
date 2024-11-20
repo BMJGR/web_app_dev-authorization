@@ -1,0 +1,45 @@
+PUT http://localhost:8080/authors
+auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW4iLCJyb2xlIjoicm9vdCIsImlhdCI6MTczMjA5NzcwN30.iCDrmXrjfl_b066AfKnx0ND0xTf36WNkuy2vgCL5uoI
+Content-Type: application/json
+
+{
+    "slug":  "name_sur",
+    "name": "Name_corrected1",
+    "description": "New author description1"
+}
+
+###
+
+GET http://localhost:8080/authors
+
+###
+
+PUT http://localhost:8080/articles
+auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoibmFtZV9zdXIyIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3MzIwOTM2NjF9.xAqNVY3Ea5Xln78ZTVCl6KaUhdB6HAdjr2NOmtsRvSc
+Content-Type: application/json
+
+{
+    "id": 25,
+    "title": "Title 48.",
+    "description": "Description",
+    "tags_ids": [2,3]
+}
+
+###
+
+GET http://localhost:8080/articles/
+
+###
+
+PUT http://localhost:8080/tags
+auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW4iLCJyb2xlIjoicm9vdCIsImlhdCI6MTczMjA5NzcwN30.iCDrmXrjfl_b066AfKnx0ND0xTf36WNkuy2vgCL5uoI
+Content-Type: application/json
+
+{
+    "id": 6,
+    "name": "Different name"
+}
+
+###
+
+GET http://localhost:8080/tags

@@ -1,0 +1,61 @@
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "user2",
+    "password": "password"
+}
+
+###
+
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "username": "user31",
+    "password": "password"
+}
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "user31",
+    "password": "password"
+}
+
+###
+
+GET http://localhost:3000/verify
+auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoidXNlcjMxIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3MzE4Mjc0NzgsImV4cCI6MTczMTgzMTA3OH0.71rnoUhoXJfLcjGPvWX9uyXbyHDBaelB9Cd-fQjdPEE
+Content-Type: application/json
+
+{
+    "username": "user31",
+    "password": "password"
+}
+
+###
+
+GET http://localhost:3000/verify2
+auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoidXNlcjMxIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3MzE4Mjc0NzgsImV4cCI6MTczMTgzMTA3OH0.71rnoUhoXJfLcjGPvWX9uyXbyHDBaelB9Cd-fQjdPEE
+Content-Type: application/json
+
+{
+    "username": "user31",
+    "password": "password"
+}
+
+###
+
+GET http://localhost:4000/authors
+
+###
+
+GET http://localhost:4000/authors
+
+###
+
+GET http://localhost:4000/authors
